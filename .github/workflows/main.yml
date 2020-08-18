@@ -1,6 +1,7 @@
 name: A workflow to trigger review requests to teams on pushes or PRs to master where the readme has changed.
 on: 
   pull_request:
+    types: [opened, ready_for_review]
     paths: 
       - 'README.md'
   push:
