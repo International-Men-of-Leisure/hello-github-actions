@@ -1,5 +1,11 @@
-name: A workflow for my Hello World file
-on: push
+name: A workflow to trigger review requests to teams on pushes or PRs to master where the readme has changed.
+on: 
+  pull_request:
+    paths: 
+      - 'README.md'
+  push:
+    paths: 
+      - 'README.md'
 jobs:
   build:
     name: Hello world action
