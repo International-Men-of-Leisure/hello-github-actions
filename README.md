@@ -48,4 +48,3 @@ Workflows piece together jobs, and jobs piece together steps, and together these
 -   You can follow the tutorial [here](https://lab.github.com/githubtraining/github-actions:-hello-world) to learn more about using Github Actions!
 
 -   Checkout the [Github Actions marketplace](https://github.com/marketplace?type=actions) to find all kinds of Github Actions for your projects!
-T
