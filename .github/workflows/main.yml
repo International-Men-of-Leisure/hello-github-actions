@@ -14,8 +14,4 @@ jobs:
     - name: "Assign Team and Persons"
       uses: rowi1de/auto-assign-review-teams@v1.0.1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
         teams: "the-dudes"         # only works for GitHub Organisation/Teams
-        persons: "spokenbird"              # add individual persons here 
-        include-draft: false            # Draft PRs will be skipped (default: false)
-        skip-with-manual-reviewers: 0   # Skip this action, if the number of reviwers was al
